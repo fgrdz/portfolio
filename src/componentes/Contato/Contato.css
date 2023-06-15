@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Prata&family=Source+Code+Pro&display=swap');
+
+.side{
+    position: fixed;
+    margin-top: -200px;
+    align-items: center;
+    padding: 8px;
+    left: 85%;
+    color: #64ffda;
+    font-family: 'Source Code Pro', monospace;
+}
+.side p {
+    font-weight: bold;
+    margin-right: 40px;
+    
+    padding: 8px;
+    color: #64ffda;
+    font-family: 'Source Code Pro', monospace;
+}
+.icones{
+    margin-right: 40px;
+    display: flex;
+    padding: 8px;
+}
+.icones a{
+    padding: 4px;
+}

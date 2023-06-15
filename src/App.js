@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Titulo from './componentes/Titulo';
+import Contato from './componentes/Contato';
+import SobreMim from './componentes/SobreMim';
+
 
 function App() {
+  document.title = 'Julio figueiredo';
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section>
+        <Titulo/>
+        <Contato/>
+        <SobreMim/>
+     </section>
+      
   );
 }
 

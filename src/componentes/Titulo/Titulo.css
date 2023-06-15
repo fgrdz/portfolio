@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Prata&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Prata&family=Source+Code+Pro&display=swap');
+
+.titulos{
+    margin-top: 140px;
+    margin-left: 80px;
+    padding: 8px;
+}
+.titulos .h1 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #64ffda;
+    font-family: 'NTR', sans-serif;
+    font-weight: bold;
+}
+
+.titulos h3{
+    margin-top: -50px;
+    color: #8892b0;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+}
+.titulos p{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    text-align: justify;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+    color: #e6f1ff;
+   
+}
+@keyframes typing {
+    from { width: 0 }
+ 
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }

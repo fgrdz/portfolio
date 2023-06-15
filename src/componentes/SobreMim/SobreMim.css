@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Prata&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Prata&family=Source+Code+Pro&display=swap');
+
+
+.sobreMim{
+    margin-left: 80px;
+    padding: 8px;
+}
+.sobreMim h1{
+    font-family: 'NTR', sans-serif;
+    font-size: 40px;
+    margin-top: 80px;
+    color: #64ffda;
+}
+.sobreMim p, b{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    text-align: justify;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+    color: #e6f1ff;
+   
+}
+.sobreMim ul{
+    display: flex;
+    flex-direction: column;
+    color: #e6f1ff; 
+    font-size: 14px;
+    font-family: 'Source Code Pro', monospace;
+  
+}
