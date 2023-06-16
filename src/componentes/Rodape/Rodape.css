@@ -1,0 +1,12 @@
+.footer{
+    font-size: 10px;
+    margin-top: 80px;
+    padding: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer p{
+    color: #8892b0;
+}

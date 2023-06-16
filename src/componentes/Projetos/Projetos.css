@@ -1,0 +1,21 @@
+.projeto-container{
+    margin-top: 80px;
+    margin-left: 80px;
+    width:70%;
+    
+}
+.titulo{
+   
+    font-size: 40px;
+    font-family: 'NTR', sans-serif;
+    color: #64ffda;
+    font-weight: bolder;
+
+}
+.projeto-grid{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(250px, 1fr));
+    grid-gap: 10px;
+    color: white;
+  
+}

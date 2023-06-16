@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Prata&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Prata&family=Source+Code+Pro&display=swap');
+section{
+    margin-left: 80px;
+}
+.card{
+    box-sizing: border-box;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'NTR', sans-serif;
+    border-radius: 8px;
+    background-color: #233554;
+    margin-bottom: 8px;
+    height: 250px;
+  
+}
+.card h1{
+    padding: 8px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #64ffda;
+}
+.card p{
+    text-align: justify;
+    margin-top: -20px;
+    color: #8892b0;
+}
+#folder {
+  
+    cursor: pointer;
+    color: #64ffda;
+    margin-top: 10px;
+    margin-right: 80%;
+}
+#folder:hover{
+    color: #8892b0;
+}
+.card #git{
+    margin-top: 40px;
+    color: #64ffda;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+.card #git:hover{
+    color: #8892b0;
+}

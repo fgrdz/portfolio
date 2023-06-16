@@ -20,7 +20,7 @@ const SobreMim = ()=>{
             <ul>
                     {tecnologias.map(function(item, i){
                     return(
-                        <li>{item}</li>
+                        <li key={i}>{item}</li>
                     )
                 })}
             </ul> 

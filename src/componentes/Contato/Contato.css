@@ -5,13 +5,14 @@
     margin-top: -200px;
     align-items: center;
     padding: 8px;
-    left: 85%;
+    left: 80%;
     color: #64ffda;
     font-family: 'Source Code Pro', monospace;
+    
 }
 .side p {
     font-weight: bold;
-    margin-right: 40px;
+ 
     
     padding: 8px;
     color: #64ffda;
@@ -23,5 +24,10 @@
     padding: 8px;
 }
 .icones a{
+    color: #64ffda;
+    cursor: pointer;
     padding: 4px;
+}
+.icones a:hover{
+    color: #8892b0;
 }
