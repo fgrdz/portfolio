@@ -1,4 +1,4 @@
-![Captura de tela](screenshot.png)
+![Captura de tela](./public/screenshot.png)
 #portfolio
 
 Este é o repositório do meu portfólio, uma aplicação React desenvolvida para mostrar meus projetos e habilidades.
