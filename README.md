@@ -1,3 +1,4 @@
+![Captura de tela](screenshot.png)
 #portfolio
 
 Este é o repositório do meu portfólio, uma aplicação React desenvolvida para mostrar meus projetos e habilidades.
