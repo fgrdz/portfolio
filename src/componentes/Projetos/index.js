@@ -4,19 +4,19 @@ import './Projetos.css'
 const Projetos = ()=>{
     const projetos = [
         {
-          titulo: 'projetin',
-          descricao: 'descricazinha',
-          link: ''
+          titulo: 'Triangle',
+          descricao: 'Uma aplicação React para controle de uma organização, permite cadastro e manipulação de usuários, além de customização',
+          link: 'https://github.com/fgrdz/Triangle'
         },
         {
-          titulo: 'projetao',
-          descricao: 'zinha',
-          link: ''
+          titulo: 'Dogtech',
+          descricao: 'Projeto de blog em react, utilizando rotas para criação e manutenção de aplicação multipáginas',
+          link: 'https://github.com/fgrdz/dogtech'
         },
         {
-            titulo: 'projetao',
-            descricao: 'zinha',
-            link: ''
+            titulo: 'Projeto grid',
+            descricao: 'Página feita utilizando apenas html e css, para fins de estudo de grid',
+            link: 'https://github.com/fgrdz/ProjetoGrid'
           }
       ]
 
