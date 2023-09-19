@@ -20,7 +20,7 @@ const Projetos = ()=>{
           },
         {
             titulo: 'Translator',
-            descricao: 'Página feita com React, que consome uma API de tradução gratuita, nela é possível traduzir frases para diversos idiomas, foi feita com um design simples e intuitivo, link do deploy no repositório',
+            descricao: 'Página feita com React, que consome uma API de tradução gratuita, nela é possível traduzir frases para diversos idiomas, link do deploy no repositório',
             link: 'https://github.com/fgrdz/translator'
         },
         {
