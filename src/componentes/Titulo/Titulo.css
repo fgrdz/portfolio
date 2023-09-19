@@ -15,7 +15,7 @@
     display: flex;
     margin-top: 0px;
     margin-bottom: 40px;
-    font-size: 40px;
+    font-size: 60px;
     color: #64ffda;
     font-family: 'NTR', sans-serif;
     font-weight: bold;
@@ -27,14 +27,14 @@
     margin-top: -50px;
     color: #8892b0;
     font-family: 'Source Code Pro', monospace;
-    font-size: 18px;
+    font-size: 28px;
 }
 .titulos p{
     display: flex;
     align-items: center;
     width: 40%;
     text-align:justify;
-    font-size: 14px;
+    font-size: 18px;
     box-sizing: border-box;
     font-family: 'Source Code Pro', monospace;
     color: #e6f1ff;
