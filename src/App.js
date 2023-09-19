@@ -4,6 +4,8 @@ import Contato from './componentes/Contato';
 import SobreMim from './componentes/SobreMim';
 import Projetos from './componentes/Projetos';
 import Rodape from './componentes/Rodape';
+import Animacao from './componentes/Animacao';
+
 
 
 
@@ -14,9 +16,14 @@ function App() {
 
   return (
     <section>
+       
         <Titulo/>
         <Contato/>
-        <SobreMim/>
+        <div className='sobre'>
+            <SobreMim/>
+            
+        </div>
+
         <Projetos/>
         <Rodape/>
      </section>

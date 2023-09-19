@@ -2,3 +2,10 @@ body{
     background-color: #0a192f;
     scroll-behavior: smooth;
 }
+.sobre{
+    width: 100%;
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+}

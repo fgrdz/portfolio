@@ -5,15 +5,23 @@
     margin-top: 140px;
     margin-left: 80px;
     padding: 8px;
+    border-bottom: 0px;
+    width: 60%;
+    
+   
+    
 }
 .titulos .h1 {
-    margin-top: 100px;
+    display: flex;
+    margin-top: 0px;
     margin-bottom: 40px;
     font-size: 40px;
     color: #64ffda;
     font-family: 'NTR', sans-serif;
     font-weight: bold;
+   
 }
+
 
 .titulos h3{
     margin-top: -50px;
@@ -24,13 +32,21 @@
 .titulos p{
     display: flex;
     align-items: center;
-    width: 30%;
-    text-align: justify;
+    width: 40%;
+    text-align:justify;
     font-size: 14px;
     box-sizing: border-box;
     font-family: 'Source Code Pro', monospace;
     color: #e6f1ff;
    
+}
+.minhaFoto{
+  
+  border-radius: 100%;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  box-shadow: 5px 5px 10px 5px rgba(36, 36, 36, 0.2);
 }
 @keyframes typing {
     from { width: 0 }

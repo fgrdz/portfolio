@@ -14,10 +14,20 @@ const Projetos = ()=>{
           link: 'https://github.com/fgrdz/dogtech'
         },
         {
-            titulo: 'Projeto grid',
-            descricao: 'Página feita utilizando apenas html e css, para fins de estudo de grid',
-            link: 'https://github.com/fgrdz/ProjetoGrid'
-          }
+            titulo: 'Projeto Dog Daily',
+            descricao: 'Página feita utilizando React e axios, manipulando uma API gratuita pública, mais detalhes e link do deploy estão no repositório',
+            link: 'https://github.com/fgrdz/Dog'
+          },
+        {
+            titulo: 'Translator',
+            descricao: 'Página feita com React, que consome uma API de tradução gratuita, nela é possível traduzir frases para diversos idiomas, foi feita com um design simples e intuitivo, link do deploy no repositório',
+            link: 'https://github.com/fgrdz/translator'
+        },
+        {
+            titulo: 'Quotaria',
+            descricao: 'Página feita com React, que consome uma API contendo quotes de séries famosas, nela é possível filtrar e visualizar citações de diversas séries, foi feita utilizando React',
+            link: 'https://github.com/fgrdz/translator'
+        }
       ]
 
     return(

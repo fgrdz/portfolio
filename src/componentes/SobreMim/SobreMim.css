@@ -5,6 +5,8 @@
 .sobreMim{
     margin-left: 80px;
     padding: 8px;
+    display: flex;
+    flex-direction: column;
 }
 .sobreMim h1{
     font-family: 'NTR', sans-serif;
@@ -12,6 +14,11 @@
     margin-top: 80px;
     color: #64ffda;
 }
+.secaoSobre{
+    display: flex;
+
+}
+
 .sobreMim p, b{
     display: flex;
     align-items: center;

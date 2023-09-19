@@ -1,9 +1,10 @@
 import './Titulo.css'
+import foto from './foto.png'
 import Typewriter from 'typewriter-effect';
 const Titulo = ()=>{
     return(
         <section className='titulos'>
-            
+            <img className= 'minhaFoto'src={foto} alt='Minha Foto, homem branco de perfil, camisa verde, óculos, sorrindo'></img>
             <div className='h1'>
                     <Typewriter onInit={(typewriter)=>{
                         typewriter.typeString('Oi, sou Julio Figueiredo.').callFunction(() => {
@@ -16,10 +17,11 @@ const Titulo = ()=>{
                         .start();
                     }}/>
             </div>
+            
             <h3>Eu crio algumas coisas legais.</h3>
-            <p>Sou estudante de análise e desenvolvimento de sistemas, sou um grande entusiasta de tecnologia 
-                e atualmente estou aprendendo tecnologias e habilidades voltadas para o desenvolvimento web.</p>
-        </section>
+            <p>Estudante de desenvolvimento de software e data science.</p>
+           
+            </section>
     )
 }
 

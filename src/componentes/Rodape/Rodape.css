@@ -4,9 +4,32 @@
     padding: 8px;
     margin-bottom: 10px;
     display: flex;
+    
     align-items: center;
     flex-direction: column;
 }
 .footer p{
     color: #8892b0;
+}
+.oculta{
+    display: none;
+}
+@media screen and (max-width:1000px){
+    .footer{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        align-items:center ;
+        justify-content: center;
+    }
+    .footer p{
+        margin:5px;
+    }
+    .oculta{
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
