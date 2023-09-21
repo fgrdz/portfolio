@@ -13,7 +13,7 @@ section{
     border-radius: 8px;
     background-color: #233554;
     margin-bottom: 8px;
-    height: 250px;
+    max-height: 250px;
   
 }
 .card header{
@@ -31,12 +31,15 @@ section{
     color: #64ffda;
 }
 .card p{
+    overflow: auto;
     padding: 8px;
     text-align: justify;
     margin-top: -24px;
-    font-size: 18px;
+    font-size: 16px;
     color: #8892b0;
+    box-sizing: border-box;
 }
+
 #folder {
   
     cursor: pointer;
@@ -56,3 +59,5 @@ section{
 .card #git:hover{
     color: #8892b0;
 }
+
+
