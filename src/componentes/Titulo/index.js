@@ -1,6 +1,10 @@
+
+
+import Contact from '../ContactMe';
 import './Titulo.css'
 import foto from './foto.png'
 import Typewriter from 'typewriter-effect';
+
 const Titulo = ()=>{
     return(
         <section className='titulos'>
@@ -20,7 +24,9 @@ const Titulo = ()=>{
             
             <h3>Eu crio algumas coisas legais.</h3>
             <p>Estudante de desenvolvimento de software e data science.</p>
+            <Contact className='contact'/>
            
+            
             </section>
     )
 }

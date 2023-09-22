@@ -1,0 +1,40 @@
+.ContactMeSection{
+    color: #64ffda;
+    overflow: hidden;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0;
+    
+
+    
+}
+
+.ContactMeSection span{
+    display: none;
+}
+.ContactMeSection button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+   
+    font-weight: bold;
+    border-radius: 4px;
+    
+  
+    padding: 10px;
+    cursor: pointer;
+}
+.ContactMeSection button:hover{
+    transform: translate(-1px,1px);
+   
+}
+.copied{
+    font-weight: bold;
+    color: white;
+    background-color: #8892b0;
+    transition: 0.5s;
+}

@@ -1,4 +1,5 @@
 import Animacao from '../Animacao';
+import Contact from '../ContactMe';
 import './SobreMim.css'
 const SobreMim = ()=>{
     const tecnologias =[
@@ -34,7 +35,7 @@ const SobreMim = ()=>{
                 
             </ul> 
            
-            
+        
         </div>
     )
 }

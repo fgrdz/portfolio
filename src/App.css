@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Prata&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Prata&family=Source+Code+Pro&display=swap');
+
+button{
+  
+  color: #64ffda;
+  background-color: #0a192f;
+  font-family: 'NTR';
+  font-size: 18px;
+}
 body{
     background-color: #0a192f;
     scroll-behavior: smooth;
+    color: #8892b0;
 }
 .sobre{
     width: 100%;

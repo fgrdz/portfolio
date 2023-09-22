@@ -5,7 +5,7 @@ import SobreMim from './componentes/SobreMim';
 import Projetos from './componentes/Projetos';
 import Rodape from './componentes/Rodape';
 import Animacao from './componentes/Animacao';
-
+import Contact from './componentes/ContactMe';
 
 
 
@@ -23,7 +23,7 @@ function App() {
             <SobreMim/>
             
         </div>
-
+        
         <Projetos/>
         <Rodape/>
      </section>
