@@ -59,5 +59,10 @@ section{
 .card #git:hover{
     color: #8892b0;
 }
+@media screen and (max-width:1000px){
+    section{
+        margin-left: 0px;
+    }
+}
 
 

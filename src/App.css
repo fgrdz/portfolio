@@ -33,3 +33,10 @@ body{
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 2px solid #64ffda;  /* creates padding around scroll thumb */
   }
+  @media screen and (max-width:1000px){
+    body{
+      left: 0;
+      margin: 0;   
+      padding: 0;
+    }
+}

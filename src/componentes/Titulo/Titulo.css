@@ -58,3 +58,8 @@
       border-color: transparent
     }
   }
+@media screen and (max-width:1000px){
+  .titulos{
+    margin-left: 20px;
+  }
+}
