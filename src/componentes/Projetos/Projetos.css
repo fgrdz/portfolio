@@ -4,12 +4,20 @@
     width:70%;
     
 }
+.container-descricao{
+    margin-bottom: 30px;
+    color: #e6f1ff; 
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
 .titulo{
    
     font-size: 60px;
     font-family: 'NTR', sans-serif;
     color: #64ffda;
     font-weight: bolder;
+    
+    border-bottom:1px solid  #616777;
 
 }
 .projeto-grid{

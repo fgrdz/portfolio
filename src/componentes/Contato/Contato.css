@@ -3,30 +3,43 @@
 .side{
     position: fixed;
     margin-top: -200px;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
     padding: 8px;
     left: 80%;
     color: #64ffda;
     font-family: 'Source Code Pro', monospace;
+    text-align:left;
     
 }
-.side p {
+
+.side-nav{
     font-weight: bold;
- 
     
     padding: 8px;
     color: #64ffda;
     font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+    
 }
+.side-nav:hover{
+    color: #8892b0;
+}
+
 .icones{
-    margin-right: 40px;
+   
     display: flex;
     padding: 8px;
+    
+    align-items: center;
+    
 }
 .icones a{
     color: #64ffda;
     cursor: pointer;
     padding: 4px;
+    
 }
 .icones a:hover{
     color: #8892b0;

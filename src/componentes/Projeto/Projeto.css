@@ -14,6 +14,7 @@ section{
     background-color: #233554;
     margin-bottom: 8px;
     height: 250px;
+    box-shadow: 5px 5px 10px 5px rgba(36, 36, 36, 0.2);
   
 }
 .card header{
@@ -29,6 +30,7 @@ section{
     margin-top: -10px;
     margin-bottom: 20px;
     color: #64ffda;
+    
 }
 .card p{
     overflow: auto;

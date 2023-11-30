@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 
 const Titulo = ()=>{
     return(
-        <section className='titulos'>
+        <section id='inicio' className='titulos'>
             <img className= 'minhaFoto'src={foto} alt='Minha Foto, homem branco de perfil, camisa verde, óculos, sorrindo'></img>
             <div className='h1'>
                     <Typewriter onInit={(typewriter)=>{

@@ -4,15 +4,17 @@ import './SobreMim.css'
 const SobreMim = ()=>{
     const tecnologias =[
         "Javascript",
+        "Typescript",
         "Python",
         "SQL",
         "React.js",
         "Java",
         "Node.js",
         "HTML & CSS"
+
     ];
     return(
-        <div className='sobreMim'>
+        <div id="sobremim" className='sobreMim'>
             
             <h1 >Sobre Mim</h1>
             <div className='secaoSobre'>

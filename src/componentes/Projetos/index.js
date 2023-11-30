@@ -31,8 +31,9 @@ const Projetos = ()=>{
       ]
 
     return(
-        <div className="projeto-container">
+        <div id= "projetos"className="projeto-container">
             <h1 className='titulo'>Projetos</h1>
+            <p className='container-descricao'>Aqui estão alguns dos projetos que desenvolvi para estudos e fins pessoais:</p>
             <div className="projeto-grid">
                 {projetos.map((projeto)=>(<Projeto
                     titulo = {projeto.titulo}
