@@ -33,7 +33,7 @@ const Contact = () => {
        
         <div className='EmailCopy'>
             
-          <span ref={emailRef}>jfigueiredo@hotmail.com</span>
+          <span ref={emailRef}>jfigueiredo07@hotmail.com</span>
           <button className={emailCopied ? 'copied' : ''} onClick={handleEmailCopy}>
           <EmailRoundedIcon></EmailRoundedIcon>
             {buttonText}
